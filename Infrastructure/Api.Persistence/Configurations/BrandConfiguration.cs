@@ -9,8 +9,10 @@ namespace Api.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Brand> builder)
         {
-            builder.Property(x => x.Name).HasMaxLength(50);
-            Faker faker = new ("tr");
+            builder.Property(x => x.Name).HasMaxLength(256);
+
+            Faker faker = new("tr");
+
             Brand brand1 = new()
             {
                 Id = 1,
@@ -18,21 +20,24 @@ namespace Api.Persistence.Configurations
                 CreatedDate = DateTime.Now,
                 IsDeleted = false
             };
+
             Brand brand2 = new()
             {
                 Id = 2,
                 Name = faker.Commerce.Department(),
                 CreatedDate = DateTime.Now,
-                IsDeleted = true
+                IsDeleted = false
             };
+
             Brand brand3 = new()
             {
                 Id = 3,
                 Name = faker.Commerce.Department(),
                 CreatedDate = DateTime.Now,
-                IsDeleted = false
+                IsDeleted = true
             };
-            builder.HasData(brand1, brand2, brand3);    
+            builder.HasData(brand1, brand2, brand3);
+
         }
     }
 }
