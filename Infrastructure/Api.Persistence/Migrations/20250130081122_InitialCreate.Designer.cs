@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Api.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250129181614_InitialCreate")]
+    [Migration("20250130081122_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -52,23 +52,23 @@ namespace Api.Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(5386),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(4047),
                             IsDeleted = false,
-                            Name = "Outdoors"
+                            Name = "Computers, Toys & Kids"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(5394),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(4057),
                             IsDeleted = false,
-                            Name = "Industrial"
+                            Name = "Jewelery & Toys"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(5398),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(4061),
                             IsDeleted = true,
-                            Name = "Games"
+                            Name = "Music"
                         });
                 });
 
@@ -104,7 +104,7 @@ namespace Api.Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6983),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5418),
                             IsDeleted = false,
                             Name = "Elektrik",
                             ParentId = 0,
@@ -113,7 +113,7 @@ namespace Api.Persistence.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6984),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5419),
                             IsDeleted = false,
                             Name = "Moda",
                             ParentId = 0,
@@ -122,7 +122,7 @@ namespace Api.Persistence.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6985),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5421),
                             IsDeleted = false,
                             Name = "Bilgisayar",
                             ParentId = 1,
@@ -131,7 +131,7 @@ namespace Api.Persistence.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6986),
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5422),
                             IsDeleted = false,
                             Name = "Kadın",
                             ParentId = 2,
@@ -175,28 +175,28 @@ namespace Api.Persistence.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 277, DateTimeKind.Local).AddTicks(6778),
-                            Description = "Iure incidunt quia sokaklarda voluptatem.",
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 87, DateTimeKind.Local).AddTicks(9606),
+                            Description = "Nesciunt bahar ipsam sit bilgiyasayarı.",
                             IsDeleted = false,
-                            Title = "Voluptatem."
+                            Title = "Domates."
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 277, DateTimeKind.Local).AddTicks(6799),
-                            Description = "Quia quasi dicta quia aut.",
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 87, DateTimeKind.Local).AddTicks(9633),
+                            Description = "Eum sokaklarda blanditiis hesap için.",
                             IsDeleted = true,
-                            Title = "Veniam dicta."
+                            Title = "Un magni."
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 4,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 277, DateTimeKind.Local).AddTicks(6819),
-                            Description = "Veniam in için çakıl dağılımı.",
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 87, DateTimeKind.Local).AddTicks(9652),
+                            Description = "Sequi ipsum dergi sed ama.",
                             IsDeleted = false,
-                            Title = "Veritatis."
+                            Title = "Sokaklarda."
                         });
                 });
 
@@ -242,23 +242,23 @@ namespace Api.Persistence.Migrations
                         {
                             Id = 1,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 276, DateTimeKind.Local).AddTicks(2047),
-                            Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                            Discount = 3.327175196520670m,
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 86, DateTimeKind.Local).AddTicks(7391),
+                            Description = "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+                            Discount = 1.336678980517650m,
                             IsDeleted = false,
-                            Price = 452.06m,
-                            Title = "Practical Steel Keyboard"
+                            Price = 536.36m,
+                            Title = "Generic Steel Fish"
                         },
                         new
                         {
                             Id = 2,
                             BrandId = 3,
-                            CreatedDate = new DateTime(2025, 1, 29, 22, 16, 14, 276, DateTimeKind.Local).AddTicks(2069),
-                            Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                            Discount = 4.171399901382350m,
+                            CreatedDate = new DateTime(2025, 1, 30, 12, 11, 22, 86, DateTimeKind.Local).AddTicks(7411),
+                            Description = "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+                            Discount = 7.859889349507610m,
                             IsDeleted = false,
-                            Price = 489.65m,
-                            Title = "Unbranded Wooden Sausages"
+                            Price = 810.08m,
+                            Title = "Rustic Frozen Bacon"
                         });
                 });
 

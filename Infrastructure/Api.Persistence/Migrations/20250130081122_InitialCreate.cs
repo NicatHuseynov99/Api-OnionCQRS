@@ -122,9 +122,9 @@ namespace Api.Persistence.Migrations
                 columns: new[] { "Id", "CreatedDate", "IsDeleted", "Name" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(5386), false, "Outdoors" },
-                    { 2, new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(5394), false, "Industrial" },
-                    { 3, new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(5398), true, "Games" }
+                    { 1, new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(4047), false, "Computers, Toys & Kids" },
+                    { 2, new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(4057), false, "Jewelery & Toys" },
+                    { 3, new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(4061), true, "Music" }
                 });
 
             migrationBuilder.InsertData(
@@ -132,10 +132,10 @@ namespace Api.Persistence.Migrations
                 columns: new[] { "Id", "CreatedDate", "IsDeleted", "Name", "ParentId", "Priorty" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6983), false, "Elektrik", 0, 1 },
-                    { 2, new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6984), false, "Moda", 0, 2 },
-                    { 3, new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6985), false, "Bilgisayar", 1, 1 },
-                    { 4, new DateTime(2025, 1, 29, 22, 16, 14, 274, DateTimeKind.Local).AddTicks(6986), false, "Kadın", 2, 1 }
+                    { 1, new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5418), false, "Elektrik", 0, 1 },
+                    { 2, new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5419), false, "Moda", 0, 2 },
+                    { 3, new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5421), false, "Bilgisayar", 1, 1 },
+                    { 4, new DateTime(2025, 1, 30, 12, 11, 22, 85, DateTimeKind.Local).AddTicks(5422), false, "Kadın", 2, 1 }
                 });
 
             migrationBuilder.InsertData(
@@ -143,9 +143,9 @@ namespace Api.Persistence.Migrations
                 columns: new[] { "Id", "CategoryId", "CreatedDate", "Description", "IsDeleted", "Title" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2025, 1, 29, 22, 16, 14, 277, DateTimeKind.Local).AddTicks(6778), "Iure incidunt quia sokaklarda voluptatem.", false, "Voluptatem." },
-                    { 2, 3, new DateTime(2025, 1, 29, 22, 16, 14, 277, DateTimeKind.Local).AddTicks(6799), "Quia quasi dicta quia aut.", true, "Veniam dicta." },
-                    { 3, 4, new DateTime(2025, 1, 29, 22, 16, 14, 277, DateTimeKind.Local).AddTicks(6819), "Veniam in için çakıl dağılımı.", false, "Veritatis." }
+                    { 1, 1, new DateTime(2025, 1, 30, 12, 11, 22, 87, DateTimeKind.Local).AddTicks(9606), "Nesciunt bahar ipsam sit bilgiyasayarı.", false, "Domates." },
+                    { 2, 3, new DateTime(2025, 1, 30, 12, 11, 22, 87, DateTimeKind.Local).AddTicks(9633), "Eum sokaklarda blanditiis hesap için.", true, "Un magni." },
+                    { 3, 4, new DateTime(2025, 1, 30, 12, 11, 22, 87, DateTimeKind.Local).AddTicks(9652), "Sequi ipsum dergi sed ama.", false, "Sokaklarda." }
                 });
 
             migrationBuilder.InsertData(
@@ -153,8 +153,8 @@ namespace Api.Persistence.Migrations
                 columns: new[] { "Id", "BrandId", "CreatedDate", "Description", "Discount", "IsDeleted", "Price", "Title" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2025, 1, 29, 22, 16, 14, 276, DateTimeKind.Local).AddTicks(2047), "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", 3.327175196520670m, false, 452.06m, "Practical Steel Keyboard" },
-                    { 2, 3, new DateTime(2025, 1, 29, 22, 16, 14, 276, DateTimeKind.Local).AddTicks(2069), "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design", 4.171399901382350m, false, 489.65m, "Unbranded Wooden Sausages" }
+                    { 1, 1, new DateTime(2025, 1, 30, 12, 11, 22, 86, DateTimeKind.Local).AddTicks(7391), "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality", 1.336678980517650m, false, 536.36m, "Generic Steel Fish" },
+                    { 2, 3, new DateTime(2025, 1, 30, 12, 11, 22, 86, DateTimeKind.Local).AddTicks(7411), "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit", 7.859889349507610m, false, 810.08m, "Rustic Frozen Bacon" }
                 });
 
             migrationBuilder.CreateIndex(
